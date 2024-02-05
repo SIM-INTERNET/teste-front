@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste - Wesley Miranda</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="img_titulo">
+        <img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/logomarca.png" >
+        <img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/slogan-crop.png" style="padding-left: 40%;">
+    </div>
+    
+    
+    <div class="container"> 
+        <div class="area_boleto">
+            <div class="titulo_boleto">
+                <h1> BOLETO DISPONÍVEL PARA PAGAMENTO </h1>
+            </div>
+            <hr>
+            <div class="cliente">
+                <b> Sr.(a). <input type="text" value="#cliente_razao#" id="nome_cliente" size="10px">, </b> 
+            </div>
+            <div class="texto_aviso_fatura">
+                Avisamos que sua fatura está pronta para pagamento e segue boleto em anexo com todo o detalhamento, acesse e confira os detalhes para garantir tudo em ordem.
+            </div>
+        <div class="aviso_dados_pagamento">
+            <div class="aviso_pagamento">
+                <h2> Confira os dados para pagamento  </h2>
+            </div>
+            <div class="aviso_pagamento_img">
+                <div class="aviso_borda">
+                    <div class="aviso_alerta">
+                        <img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/icon-alerta.png" width="35px"> 
+                    </div>
+                    <div class="aviso_texto">
+                        Caso já tenha efetuado o pagamento do(s)
+                        boleto(s), desconsiderar esta notificação.
+                    </div>
+                </div>   
+            </div>              
+        </div>
+        <table>
+            <tr>
+                Beneficiário
+            </tr>
+            <tr>
+                Sim Internet
+            </tr>
+            <tr> 
+                <td> Nº Contrato </td>
+                <td> Valor Original </td>
+                <td> Data Venciemento </td>
+            </tr>
+            <tr>
+                <td> 12345 </td>
+                <td> R$ 129,90 </td>
+                <td> 12/12/2023 </td>
+            </tr>
+        </table>
+        <div class="pix">
+            <div class="pix_linha_1">
+                <div class="qr_code">
+                    <img src="https://www.siminternet.com.br/wp-content/uploads/2024/01/qr-code-site.png" alt="" width="100px">
+                </div>
+                <div class="info_pix"> 
+                    
+                    <h3><b>Agora ficou mais fácil, rápido e seguro!</b></h3>
+                    <p> Use esse QR Code para pagar sua fatura via Pix. </p>
+                </div> 
+            </div>
+            <div class="pix_linha_2">
+                <div class="copia_e_cola">
+                    pix copia e cola
+                    00020101021226740014br.gov.bcb.pix2552pix.ebanx.com/qr/v2/1A5CC6ECC0D3CFB0AF4A709086242BB55204000053039865802BR5925Sim Internet6009Modelo 62070503***6304CAF
+                </div>
+            </div>
+            
+            
+            <div class="celular"> 
+                <img src="https://www.siminternet.com.br/wp-content/uploads/2023/12/cel-qr-code.png">
+            </div>
+        </div>
+        
+        <div class="linha_digitavel"> 
+            <div class="linha_digitavel_titulo">
+                Caso o pagamento da fatura seja feito via linha digitável (boleto), o prazo para reconhecimento do pagamento é de até 3 dias úteis.
+            </div>
+            <div class="linha_digitavel_conteudo">
+                Linha Digitável (boleto)
+                07790.00116 01001.303339 85556.124311 9 00000000000200
+            </div>
+        </div>
+        </div>
+        <div class="area_do_cliente">
+            CONHEÇA A ÁREA DO CLIENTE!
+            
+            Descubra recursos projetados para otimizar a sua experiência.
+
+            <div class="botao_enviar">
+                Acessar Agora
+            </div>
+            
+
+        </div>
+        <div class="area_relacionamento">
+            <h3> Relacionamento com o Cliente: </h3>
+            <p>
+                Estamos aqui para proporcionar a você uma experiência excepcional. Se surgir alguma dúvida ou necessidade, nossa equipe está pronta para oferecer o suporte que você merece. Não hesite em nos contatar; estamos comprometidos em superar suas expectativas.
+                Sua satisfação é nossa prioridade, e ansiamos por construir relações duradouras contigo
+            </p>
+        </div>
+        <div class="icones_contato">
+        </div>
+        <div class="contato">
+            0800 642 0300
+            (63) 3229-6900
+            sac@siminternet.com.br
+        </div>
+        <div class="rodape">
+            <div class="redes_icones"> 
+                <img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_instagram-pp.png" alt="Instagram">
+                <img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_facebook-pp.png" alt="Facebook">
+                <img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_twitter-pp.png" alt="Twitter">
+                <img src="https://www.siminternet.com.br/wp-content/uploads/2021/12/log_web-pp.png" alt="Página Web">
+            </div>
+            <img src="" alt="">
+            <p>Quadra 106 Norte, Alameda 2, Lote 04, 10 andar, Edifício Palmas Business Center - Palmas - TO</p>
+            
+            
+        </div>
+        <div class="enviar">
+        <button onclick="alteraNome();alertaEnvio()"> Enviar </button>
+        </div>
+        </div>
+        
+
+    </div>
+
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
